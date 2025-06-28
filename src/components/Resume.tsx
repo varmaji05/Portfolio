@@ -82,7 +82,7 @@ const Resume: React.FC = () => {
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
-              href="https://drive.google.com/uc?export=download&id=1Ydzcjp700FG1zXznvaaDt14WMxFwvpz4"
+              href="https://drive.google.com/uc?export=download&id=16oSjRcxSiEFNIw1qo-OXpvqdAOda-cZ_"
               download
               target="_blank"
               rel="noopener noreferrer"
