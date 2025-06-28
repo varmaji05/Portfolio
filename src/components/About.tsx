@@ -6,12 +6,12 @@ const About: React.FC = () => {
     {
       icon: <Server className="w-8 h-8 text-blue-600 dark:text-blue-400" />,
       title: "Infrastructure",
-      description: "1+ years designing and managing cloud infrastructure on AWS and Azure"
+      description: "3+ years designing and managing cloud infrastructure on AWS & Azure"
     },
     {
       icon: <Cloud className="w-8 h-8 text-purple-600 dark:text-purple-400" />,
       title: "Cloud Native",
-      description: "Expert in Kubernetes, Docker, and microservices architecture"
+      description: "Expert in Kubernetes, Docker, and Micro-Services Architecture"
     },
     {
       icon: <Code className="w-8 h-8 text-green-600 dark:text-green-400" />,
@@ -39,10 +39,10 @@ const About: React.FC = () => {
           <div>
             <div className="prose prose-lg text-gray-600 dark:text-gray-300 transition-colors duration-300">
               <p className="mb-6">
-                With over 1 years of experience in DevOps and cloud infrastructure, I've helped organizations reduce deployment times by 80% and improve system reliability to 99.9% uptime.
+                With over 3+ years of experience in DevOps and Cloud Infrastructure, I've helped organizations reduce deployment times by 80% and improve system reliability to 99.9% uptime.
               </p>
               <p className="mb-6">
-                My expertise spans across cloud platforms, container orchestration, and automation tools. I'm passionate about creating robust, scalable systems that enable development teams to focus on building great products.
+                My expertise spans across Cloud Platforms, Container Orchestration, and Automation tools. I'm passionate about creating robust, scalable systems that enable development teams to focus on building great products.
               </p>
               <p className="mb-8">
                 When I'm not optimizing CI/CD pipelines or managing Kubernetes clusters, you can find me contributing to open-source projects or sharing knowledge through technical blog posts.
