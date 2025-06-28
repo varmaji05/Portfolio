@@ -52,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
           <div className="flex space-x-4 justify-center">
             {/* GitHub */}
             <a
-              href="https://github.com/aakashdeep8530"
+              href="https://github.com/varmaji05"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20"
