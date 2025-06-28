@@ -92,7 +92,7 @@ const Resume: React.FC = () => {
               Download PDF
             </a>
             <a
-              href="https://drive.google.com/file/d/1Ydzcjp700FG1zXznvaaDt14WMxFwvpz4/view?usp=sharing"
+              href="https://drive.google.com/file/d/16oSjRcxSiEFNIw1qo-OXpvqdAOda-cZ_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white font-medium rounded-lg transition-colors duration-300"
@@ -211,7 +211,7 @@ const Resume: React.FC = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                 >
-                  <span>aakashdeepsingh69146@gmail.com</span>
+                  <span>varmavinod101@gmail.com</span>
                 </a>
               </div>
             </div>
