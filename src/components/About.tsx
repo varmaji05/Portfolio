@@ -6,22 +6,22 @@ const About: React.FC = () => {
     {
       icon: <Server className="w-8 h-8 text-blue-600 dark:text-blue-400" />,
       title: "Infrastructure",
-      description: "3+ years designing and managing cloud infrastructure on AWS & Azure"
+      description: "3+ Years Designing and Managing Cloud Infrastructure on AWS & Azure"
     },
     {
       icon: <Cloud className="w-8 h-8 text-purple-600 dark:text-purple-400" />,
       title: "Cloud Native",
-      description: "Expert in Kubernetes, Docker, and Micro-Services Architecture"
+      description: "Expert In Kubernetes, Docker, and Micro-Services Architecture"
     },
     {
       icon: <Code className="w-8 h-8 text-green-600 dark:text-green-400" />,
       title: "Automation",
-      description: "CI/CD pipelines, Infrastructure as Code, and automated testing"
+      description: "CI/CD Pipeline, Infrastructure as Code, and Automated Testing"
     },
     {
       icon: <Users className="w-8 h-8 text-orange-600 dark:text-orange-400" />,
       title: "Collaboration",
-      description: "Bridging the gap between development and operations teams"
+      description: "Bridging the gap between Development and Operations teams"
     }
   ];
 
@@ -31,7 +31,7 @@ const About: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">About Me</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300">
-            Passionate DevOps engineer with a track record of transforming development workflows and scaling infrastructure for high-growth companies.
+            Passionate DevOps Engineer with a track record of transforming Development Workflows and Scaling Infrastructure for High-Growth Companies.
           </p>
         </div>
 
