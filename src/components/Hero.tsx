@@ -24,12 +24,12 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 transition-colors duration-300">
             <span className="block">Hi, I'm</span>
             <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-green-600 bg-clip-text text-transparent">
-              Aakashdeep Singh
+              Vinod Varma
             </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto transition-colors duration-300">
-            DevOps Engineer specializing in cloud infrastructure, automation, and building scalable systems that power modern applications.
+            DevOps Engineer specializing in Cloud Infrastructure, Automation, and Building Scalable Systems that power Mdern Applications.
           </p>
 
           {/* Buttons */}
@@ -64,7 +64,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/aakashdeep-singh-b323a4243/"
+              href="https://www.linkedin.com/in/vinodvarmaji/"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/20"
@@ -76,7 +76,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
 
             {/* Email */}
             <a
-              href="mailto:aakashdeepsingh69146@gmail.com"
+              href="mailto:varmavinod101@gmail.com"
               className="group p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-red-500/20"
             >
               <svg className="w-6 h-6 text-gray-300 group-hover:text-red-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -86,7 +86,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
 
             {/* Medium */}
             <a
-              href="https://medium.com/@aakashdeep8530"
+              href="https://medium.com/@vv-devops"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-3 bg-gray-800/50 hover:bg-gray-700/50 rounded-xl transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-green-500/20"
