@@ -8,6 +8,8 @@ import Skills from './components/Skills';
 import Blog from './components/Blog';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -36,6 +38,14 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100,
+    });
+  }, []);
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
