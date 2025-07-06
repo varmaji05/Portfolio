@@ -48,9 +48,9 @@ const Projects: React.FC = () => {
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">Projects</h2>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">What I’ve Built</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300">
-            A showcase of infrastructure projects and automation solutions that have made a real impact.
+            A curated collection of real-world solutions focused on automation, scalability, and system reliability.
           </p>
         </div>
 
