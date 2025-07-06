@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       technologies: ["Kubernetes", "Docker", "Istio", "ArgoCD", "Prometheus"],
       image: "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=600",
       github: "https://github.com",
-      demo: "https://demo.com"
+      // demo: "https://demo.com"
     },
     {
       title: "Infrastructure as Code",
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       technologies: ["Terraform", "Ansible", "AWS", "CloudFormation", "Jenkins"],
       image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600",
       github: "https://github.com",
-      demo: "https://demo.com"
+      // demo: "https://demo.com"
     },
   ];
 
@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
                     <Github size={20} className="mr-2" />
                     Code
                   </a>
-                  <a
+{/*                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
                   >
                     <ExternalLink size={20} className="mr-2" />
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
