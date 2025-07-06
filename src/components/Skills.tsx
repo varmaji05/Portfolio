@@ -33,8 +33,7 @@
           { name: 'Docker', img: 'https://cdn.simpleicons.org/docker/2496ED' },
           { name: 'Kubernetes', img: 'https://cdn.simpleicons.org/kubernetes/326CE5' },
           { name: 'Helm', img: 'https://miro.medium.com/v2/resize:fit:606/format:webp/1*nViWw5hFgS7l3vu1RkO3YA.png' },
-          // { name: 'ArgoCD', img: 'https://miro.medium.com/v2/resize:fit:600/1*SzHlH1nmPzZ2pT5k7PrWzg.png' },
-          { name: 'ArgoCD', img: 'https://repository-images.githubusercontent.com/299453120/68a2c880-9989-11eb-83f6-790a9c54978a' },
+          { name: 'ArgoCD', img: 'https://miro.medium.com/v2/resize:fit:600/1*SzHlH1nmPzZ2pT5k7PrWzg.png' },
         ],
       },
       {
