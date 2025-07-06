@@ -31,7 +31,7 @@ const About: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300 animate-fadeIn">About Me</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300 animate-fadeIn delay-200">
-            Passionate DevOps Engineer with a track record of transforming Development Workflows and Scaling Infrastructure for High-Growth Companies.
+            DevOps Engineer with a passion for automating delivery pipelines, orchestrating cloud-native systems, and scaling resilient infrastructure for high-growth environments.
           </p>
         </div>
 
