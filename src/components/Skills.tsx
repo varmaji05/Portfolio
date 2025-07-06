@@ -23,7 +23,6 @@
         title: 'Hosting Platforms',
         icon: <Globe className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
         skills: [
-          // { name: 'Godaddy', img: 'https://cdn.prod.website-files.com/612f5131b9c94eda2fe9c725/6650b305bf6d81ad12356860_GoDaddy-Logo%201.png' },
           { name: 'Route 53', img: 'https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Route-53.svg' },
         ],
       },
@@ -34,6 +33,7 @@
           { name: 'Docker', img: 'https://cdn.simpleicons.org/docker/2496ED' },
           { name: 'Kubernetes', img: 'https://cdn.simpleicons.org/kubernetes/326CE5' },
           { name: 'Helm', img: 'https://miro.medium.com/v2/resize:fit:606/format:webp/1*nViWw5hFgS7l3vu1RkO3YA.png' },
+          { name: 'ArgoCD', img: 'https://iamops.io/wp-content/uploads/2024/06/ArgoCD.svg' },
         ],
       },
       {
@@ -42,7 +42,6 @@
         skills: [
           { name: 'Terraform', img: 'https://cdn.simpleicons.org/terraform/623CE4' },
           { name: 'Ansible', img: 'https://iamops.io/wp-content/uploads/2024/06/Azad-Gamer.svg' },
-          // { name: 'CloudFormation', img: 'https://icon.icepanel.io/AWS/svg/Management-Governance/CloudFormation.svg' },
         ],
       },
       {
@@ -61,9 +60,6 @@
           { name: 'Jenkins', img: 'https://iamops.io/wp-content/uploads/2024/06/Jenkins.svg' },
           { name: 'GitLab CI', img: 'https://cdn.simpleicons.org/gitlab/FC6D26' },
           { name: 'GitHub Actions', img: 'https://iamops.io/wp-content/uploads/2024/06/github-actions.svg' },
-          // { name: 'BitBucket', img: 'https://icon.icepanel.io/Technology/svg/BitBucket.svg' },
-          // { name: 'CodePipeline', img: 'https://icon.icepanel.io/AWS/svg/Developer-Tools/CodePipeline.svg' },
-          // { name: 'Azure Pipeline', img: 'https://www.wecoderight.com/wp-content/uploads/2023/06/azure.png' },
         ],
       },
       {
@@ -72,11 +68,7 @@
         skills: [
           { name: 'Prometheus', img: 'https://cdn.simpleicons.org/prometheus/E6522C' },
           { name: 'Grafana', img: 'https://cdn.simpleicons.org/grafana/F46800' },
-          { name: 'CloudWatch', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3TC1a3NJ0BWEvcoWeFgzZQLjQv61g6y7jw&s' },
-          // { name: 'Loki', img: 'https://elpuig.xeill.net/Members/vcarceler/articulos/introduccion-a-la-monitorizacion-con-grafana-y-loki/logo-1.png/@@images/13dd22a2-267b-4821-99ed-3e153d86ce7c.png'},
-          // { name: 'ELK Stack', img: 'https://icon.icepanel.io/Technology/png-shadow-512/Elastic-Search.png' },
-          // { name: 'Kibana', img: 'https://icon.icepanel.io/Technology/svg/Kibana.svg' },
-          // { name: 'LogStash', img: 'https://icon.icepanel.io/Technology/svg/Logstash.svg' },
+          { name: 'CloudWatch', img: 'https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg' },
         ],
       },
       {
