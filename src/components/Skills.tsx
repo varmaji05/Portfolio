@@ -125,15 +125,16 @@
                   {category.skills.map((skill, skillIndex) => (
                     <div
                       key={skillIndex}
-                      className="flex flex-col items-center text-center group hover:scale-105 transition-transform duration-300"
+                      className="flex flex-col items-center text-center group transform transition-transform duration-300 hover:-translate-y-1"
                     >
                       <img
                         src={skill.img}
                         alt={skill.name}
                         className="w-12 h-12 object-contain p-2 bg-white dark:bg-gray-700 rounded-lg shadow-sm group-hover:scale-110 transition-transform duration-300"
                       />
-                      <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                        {skill.name}
+                      <span 
+                        className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                        title={`Familiar with ${skill.name}`}
                       </span>
                     </div>
                   ))}
