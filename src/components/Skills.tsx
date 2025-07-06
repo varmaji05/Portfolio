@@ -104,15 +104,15 @@
               Skills & Technologies
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              A modern DevOps toolkit powered by automation, containers, cloud, and clean code.
+              Everything in my toolbox — from containers and code to clouds and control.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {skillCategories.map((category, index) => (
               <div
                 key={index}
-                className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 hover:shadow-lg dark:hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
+                className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 transform transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:shadow-xl dark:hover:shadow-2xl hover:-translate-y-1"
               >
                 <div className="flex items-center mb-6">
                   {category.icon}
@@ -130,7 +130,7 @@
                       <img
                         src={skill.img}
                         alt={skill.name}
-                        className="w-10 h-10 object-contain mb-2"
+                        className="w-12 h-12 object-contain p-2 bg-white dark:bg-gray-700 rounded-lg shadow-sm group-hover:scale-110 transition-transform duration-300"
                       />
                       <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                         {skill.name}
