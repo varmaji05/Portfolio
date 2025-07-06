@@ -34,7 +34,7 @@
           { name: 'Kubernetes', img: 'https://cdn.simpleicons.org/kubernetes/326CE5' },
           { name: 'Helm', img: 'https://miro.medium.com/v2/resize:fit:606/format:webp/1*nViWw5hFgS7l3vu1RkO3YA.png' },
           // { name: 'ArgoCD', img: 'https://miro.medium.com/v2/resize:fit:600/1*SzHlH1nmPzZ2pT5k7PrWzg.png' },
-          { name: 'ArgoCD', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAeUOKnPBZx5HFooCNRwRLeM_zgzLH_Sy7cQ&s' },
+          { name: 'ArgoCD', img: 'https://images.seeklogo.com/logo-png/33/1/argo-logo-png_seeklogo-339650.png' },
         ],
       },
       {
