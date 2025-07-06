@@ -29,7 +29,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto transition-colors duration-300">
-            DevOps Engineer specializing in Cloud Infrastructure, Automation, and Building Scalable Systems that power Mdern Applications.
+            DevOps Engineer specializing in Cloud Infrastructure, Automation, and building Resilient, Orchestrated Distributed Systems for Modern Applications.
           </p>
 
           {/* Buttons */}
