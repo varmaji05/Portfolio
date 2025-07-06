@@ -54,7 +54,7 @@ const About: React.FC = () => {
             {highlights.map((item, index) => (
               <div
                 key={index}
-                className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl hover:shadow-lg dark:hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700"
+                className="group bg-gray-50 dark:bg-gray-800 p-6 rounded-xl hover:shadow-lg dark:hover:shadow-2xl transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:bg-gradient-to-br from-gray-100 to-blue-50 dark:from-gray-800 dark:to-gray-700"
               >
                 <div className="mb-4 transform transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce">{item.icon}</div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 transition-colors duration-300">{item.title}</h3>
