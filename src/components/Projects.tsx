@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
                     className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                   >
                     <Github size={20} className="mr-2" />
-                    Code
+                    🔍 See How It Works
                   </a>
 {/*                   <a
                     href={project.demo}
