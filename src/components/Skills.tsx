@@ -23,7 +23,7 @@
         title: 'Hosting Platforms',
         icon: <Globe className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
         skills: [
-          { name: 'Godaddy', img: 'https://cdn.prod.website-files.com/612f5131b9c94eda2fe9c725/6650b305bf6d81ad12356860_GoDaddy-Logo%201.png' },
+          // { name: 'Godaddy', img: 'https://cdn.prod.website-files.com/612f5131b9c94eda2fe9c725/6650b305bf6d81ad12356860_GoDaddy-Logo%201.png' },
           { name: 'Route 53', img: 'https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Route-53.svg' },
         ],
       },
@@ -42,7 +42,7 @@
         skills: [
           { name: 'Terraform', img: 'https://cdn.simpleicons.org/terraform/623CE4' },
           { name: 'Ansible', img: 'https://iamops.io/wp-content/uploads/2024/06/Azad-Gamer.svg' },
-          { name: 'CloudFormation', img: 'https://icon.icepanel.io/AWS/svg/Management-Governance/CloudFormation.svg' },
+          // { name: 'CloudFormation', img: 'https://icon.icepanel.io/AWS/svg/Management-Governance/CloudFormation.svg' },
         ],
       },
       {
@@ -61,9 +61,9 @@
           { name: 'Jenkins', img: 'https://iamops.io/wp-content/uploads/2024/06/Jenkins.svg' },
           { name: 'GitLab CI', img: 'https://cdn.simpleicons.org/gitlab/FC6D26' },
           { name: 'GitHub Actions', img: 'https://iamops.io/wp-content/uploads/2024/06/github-actions.svg' },
-          { name: 'BitBucket', img: 'https://icon.icepanel.io/Technology/svg/BitBucket.svg' },
-          { name: 'CodePipeline', img: 'https://icon.icepanel.io/AWS/svg/Developer-Tools/CodePipeline.svg' },
-          { name: 'Azure Pipeline', img: 'https://www.wecoderight.com/wp-content/uploads/2023/06/azure.png' },
+          // { name: 'BitBucket', img: 'https://icon.icepanel.io/Technology/svg/BitBucket.svg' },
+          // { name: 'CodePipeline', img: 'https://icon.icepanel.io/AWS/svg/Developer-Tools/CodePipeline.svg' },
+          // { name: 'Azure Pipeline', img: 'https://www.wecoderight.com/wp-content/uploads/2023/06/azure.png' },
         ],
       },
       {
@@ -72,10 +72,11 @@
         skills: [
           { name: 'Prometheus', img: 'https://cdn.simpleicons.org/prometheus/E6522C' },
           { name: 'Grafana', img: 'https://cdn.simpleicons.org/grafana/F46800' },
-          { name: 'Loki', img: 'https://elpuig.xeill.net/Members/vcarceler/articulos/introduccion-a-la-monitorizacion-con-grafana-y-loki/logo-1.png/@@images/13dd22a2-267b-4821-99ed-3e153d86ce7c.png'},
-          { name: 'ELK Stack', img: 'https://icon.icepanel.io/Technology/png-shadow-512/Elastic-Search.png' },
-          { name: 'Kibana', img: 'https://icon.icepanel.io/Technology/svg/Kibana.svg' },
-          { name: 'LogStash', img: 'https://icon.icepanel.io/Technology/svg/Logstash.svg' },
+          { name: 'CloudWatch', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3TC1a3NJ0BWEvcoWeFgzZQLjQv61g6y7jw&s' },
+          // { name: 'Loki', img: 'https://elpuig.xeill.net/Members/vcarceler/articulos/introduccion-a-la-monitorizacion-con-grafana-y-loki/logo-1.png/@@images/13dd22a2-267b-4821-99ed-3e153d86ce7c.png'},
+          // { name: 'ELK Stack', img: 'https://icon.icepanel.io/Technology/png-shadow-512/Elastic-Search.png' },
+          // { name: 'Kibana', img: 'https://icon.icepanel.io/Technology/svg/Kibana.svg' },
+          // { name: 'LogStash', img: 'https://icon.icepanel.io/Technology/svg/Logstash.svg' },
         ],
       },
       {
@@ -112,8 +113,11 @@
             {skillCategories.map((category, index) => (
               <div
                 key={index}
-                className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 transform transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:shadow-xl dark:hover:shadow-2xl hover:-translate-y-1"
+                className="relative group bg-gray-50 dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl dark:hover:shadow-2xl hover:-translate-y-1 animate-fade-in-up"
+                style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'both' }}
               >
+                <div className="absolute inset-0 rounded-xl border-2 border-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 blur opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-[-1]" />
+                
                 <div className="flex items-center mb-6">
                   {category.icon}
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white ml-3">
@@ -130,7 +134,7 @@
                       <img
                         src={skill.img}
                         alt={skill.name}
-                        className="w-12 h-12 object-contain p-2 bg-white dark:bg-gray-700 rounded-lg shadow-sm group-hover:scale-110 transition-transform duration-300"
+                        className="w-12 h-12 object-contain p-2 bg-white dark:bg-gray-700 rounded-lg shadow-sm transition-transform duration-500 group-hover:scale-110 group-hover:animate-float"
                       />
                       <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                         {skill.name}
