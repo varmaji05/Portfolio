@@ -19,14 +19,6 @@ const Projects: React.FC = () => {
       github: "https://github.com",
       demo: "https://demo.com"
     },
-    {
-      title: "Monitoring & Observability",
-      description: "Implemented comprehensive monitoring solution with custom dashboards and alerting. Improved MTTR by 60%.",
-      technologies: ["Prometheus", "Grafana", "ELK Stack", "Jaeger", "PagerDuty"],
-      image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600",
-      github: "https://github.com",
-      demo: "https://demo.com"
-    },
   ];
 
   const getTagColor = (tech: string) => {
@@ -66,8 +58,6 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              data-aos="fade-up"
-              data-aos-delay={index * 100}
               className="group transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1 bg-white dark:bg-gray-900 rounded-xl shadow-lg dark:shadow-2xl overflow-hidden hover:shadow-xl dark:hover:shadow-3xl border border-gray-200 dark:border-gray-700"
             >
               <div className="relative overflow-hidden">
