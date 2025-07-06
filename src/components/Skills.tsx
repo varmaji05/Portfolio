@@ -115,9 +115,7 @@
                 key={index}
                 className="relative group bg-gray-50 dark:bg-gray-800 rounded-xl p-6 border border-gray-200 dark:border-gray-700 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl dark:hover:shadow-2xl"
                 style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'both' }}
-              >
-                <div className="absolute inset-0 rounded-xl border-2 border-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 blur opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-[-1]" />
-                
+              >                
                 <div className="flex items-center mb-6">
                   {category.icon}
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white ml-3">
